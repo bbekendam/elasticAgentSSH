@@ -1,14 +1,16 @@
-# elasticAgentSSH
+# elasticAgentSSH_ThreatReport
 
 Purpose is to install a SIEM agent onto an Ubuntu AWS EC2 server, monitor for activity and gain security hardening recommendations.
 _Assumptions - Elastic Instance (free trial available) and AWS EC2 host (free tier available)_
+
+
+-----
 <br><br>
-<img width="858" height="722" alt="image" src="https://github.com/user-attachments/assets/1c7ef533-6bd7-49d6-aeec-5f29262febbb" />
+<img width="870" height="652" alt="image" src="https://github.com/user-attachments/assets/1d283bf5-be73-4ad3-8355-32463c392fee" />
+
 <br><br>
 
-
-
-
+Overview
 1.  Configure Fleet Agent for Elastic
 2.  Install Fleet Agent and Enroll Host
 3.  Search and Discover Data
@@ -17,10 +19,11 @@ _Assumptions - Elastic Instance (free trial available) and AWS EC2 host (free ti
 6.  Obtain Summarization and Improvement Suggestions
 7.  Formal Incident Report with NIST 800-53 Mapping
 <br><br><br>
+------
 
 
 
-One.  Configure Fleet Agent for Elastic
+1.  Configure Fleet Agent for Elastic
 <img width="1636" height="958" alt="image" src="https://github.com/user-attachments/assets/c80e6c8f-bd33-4045-baa1-b285bd4685df" />
 
    <br>

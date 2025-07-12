@@ -2,6 +2,12 @@
 
 Purpose is to install a SIEM agent onto an Ubuntu AWS EC2 server, monitor for activity and gain security hardening recommendations.
 _Assumptions - Elastic Instance (free trial available) and AWS EC2 host (free tier available)_
+<br><br>
+<img width="858" height="722" alt="image" src="https://github.com/user-attachments/assets/1c7ef533-6bd7-49d6-aeec-5f29262febbb" />
+<br><br>
+
+
+
 
 1.  Configure Fleet Agent for Elastic
 2.  Install Fleet Agent and Enroll Host

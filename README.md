@@ -5,25 +5,41 @@ _Assumptions - Elastic Instance (free trial available) and AWS EC2 host (free ti
 
 
 1.  Configure Fleet Agent for Elastic
+2.  Install Fleet Agent and Enroll Host
+3.  Search and Discover Data
+4.  Pin and Narrow Down the Applicable Data
+5.  Extract the Data Results in JSON
+6.  Obtain Summarization and Improvement Suggestions
+7.  Formal Incident Report with NIST 800-53 Mapping
+<br><br>
+
+
+
+
+
+1.  Configure Fleet Agent for Elastic SIEM
    <br>
 <img width="1636" height="958" alt="image" src="https://github.com/user-attachments/assets/664c5627-789b-4649-8715-6ddca5c300ea" />
-   
+   <br>
 2.  Install Fleet Agent and Enroll Host
-
-   
+<br>  
 <img width="1647" height="969" alt="image" src="https://github.com/user-attachments/assets/eee53f31-4b70-477d-9b23-ca5fe0390997" />
-   
-4.  Search and Discover Data
+<br>   
+3.  Search and Discover Data
 <img width="1640" height="971" alt="image" src="https://github.com/user-attachments/assets/cde244aa-ffa7-4ce4-88a4-6f8619b713b6" />
-   
-5.  Pin and Narrow Down the Applicable Data
+<br>   
+4.  Pin and Narrow Down the Applicable Data
+<br>
 <img width="1633" height="972" alt="image" src="https://github.com/user-attachments/assets/e547d7c2-73af-4982-8882-76fa8e424cc2" />
+<br>
 <img width="1611" height="932" alt="image" src="https://github.com/user-attachments/assets/f3643a0b-fb13-46e1-a3ff-0bd5eb9f30d7" />
+<br>
 <img width="1603" height="972" alt="image" src="https://github.com/user-attachments/assets/b0273a69-aff8-43c5-b512-824675e11bd0" />
-   
-6.  Extract the Data Results in JSON
+<br>   
+5.  Extract the Data Results in JSON
 <br>
 Pivot to the Discover Tab
+<br>
 <img width="1592" height="969" alt="image" src="https://github.com/user-attachments/assets/1bcbc195-60b4-40ed-9d0c-5c4971fbe772" />
 Create the view with SSH logins and failures <br>
 'Inspect' the query and response <br>
@@ -36,7 +52,7 @@ Save the response JSON to a file
 
 
    
-8.  Obtain Summarization and Improvement Suggestions
+6.  Obtain Summarization and Improvement Suggestions
 <br>
 Conversate with ChatGPT and give context.<br>
 Upload the JSON file
@@ -65,6 +81,8 @@ Request a markdown formatted threat timeline as such:
 <br>
 Additionally, if you'd like to request a fully formatted Incident Report, it can be generated as such.<br>
 
+7.  Formal Incident Report with NIST 800-53 Mapping
+8.  
 ---
 
 # 🛡️ Security Incident Report: SSH Access Review

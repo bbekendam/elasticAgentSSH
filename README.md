@@ -29,7 +29,7 @@ One.  Configure Fleet Agent for Elastic
 <img width="1647" height="969" alt="image" src="https://github.com/user-attachments/assets/0da460d3-fd54-4632-b3e8-3cceaaf3cf2f" />
 
 <br>   
-3.  Search and Discover Data
+3.  Explore the Collected Data
 <img width="1640" height="971" alt="image" src="https://github.com/user-attachments/assets/cde244aa-ffa7-4ce4-88a4-6f8619b713b6" />
 <br>   
 4.  Pin and Narrow Down the Applicable Data
@@ -38,15 +38,23 @@ One.  Configure Fleet Agent for Elastic
 <br>
 <img width="1611" height="932" alt="image" src="https://github.com/user-attachments/assets/f3643a0b-fb13-46e1-a3ff-0bd5eb9f30d7" />
 <br>
+Pivot to the Discover tab
+<br><br>
+
 <img width="1603" height="972" alt="image" src="https://github.com/user-attachments/assets/b0273a69-aff8-43c5-b512-824675e11bd0" />
 <br>   
-5.  Extract the Data Results in JSON
+
 <br>
-Pivot to the Discover Tab
+Create the view with SSH logins and failures
 <br>
 <img width="1592" height="969" alt="image" src="https://github.com/user-attachments/assets/1bcbc195-60b4-40ed-9d0c-5c4971fbe772" />
 <br>
-Create the view with SSH logins and failures and 'Inspect' the query and response <br>
+
+5.  Extract the Data Results in JSON
+<br>
+
+<br>
+'Inspect' the query and response <br>
 
 <img width="1592" height="969" alt="image" src="https://github.com/user-attachments/assets/85ace01a-f0f8-41b3-85ed-43e3cb8db1c4" />
 

@@ -1,0 +1,3103 @@
+{
+  "isPartial": false,
+  "isRunning": false,
+  "rawResponse": {
+    "took": 20,
+    "timed_out": false,
+    "_shards": {
+      "total": 6,
+      "successful": 6,
+      "skipped": 5,
+      "failed": 0
+    },
+    "hits": {
+      "max_score": null,
+      "hits": [
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduKUAx",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.145"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              45667
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              48337
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.145"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.145"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "18593"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-12T13:45:56.822Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-12T13:45:56.822Z",
+            8
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduKEB-",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Invalid"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "138.2.109.83"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "failure"
+            ],
+            "source.geo.city_name": [
+              "Kampong Loyang"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              37327
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              31898
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              ""
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  103.96809998899698,
+                  1.3664999976754189
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "138.2.109.83"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "138.2.109.83"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "SG"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "ORACLE-BMC-31898"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "ORACLE-BMC-31898"
+            ],
+            "source.geo.continent_name": [
+              "Asia"
+            ],
+            "log.syslog.procid": [
+              "18197"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-12T09:32:30.774Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "Singapore"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              ""
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-12T09:32:30.774Z",
+            74
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJz8m",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Invalid"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "source.geo.region_name": [
+              "California"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "47.251.168.129"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-CA"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "failure"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              19708
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              45102
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              ""
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -118.24400005862117,
+                  34.05439996160567
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "47.251.168.129"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "47.251.168.129"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "Alibaba US Technology Co., Ltd."
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "Alibaba US Technology Co., Ltd."
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "10104"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-12T01:29:57.181Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              ""
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-12T01:29:57.181Z",
+            213
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJz8Y",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Invalid"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "47.239.244.99"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "failure"
+            ],
+            "source.geo.city_name": [
+              "Hong Kong"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              17946
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              45102
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              ""
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  114.17589993216097,
+                  22.284199981950223
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "47.239.244.99"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "47.239.244.99"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "HK"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "Alibaba US Technology Co., Ltd."
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "Alibaba US Technology Co., Ltd."
+            ],
+            "source.geo.continent_name": [
+              "Asia"
+            ],
+            "log.syslog.procid": [
+              "9929"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-12T00:37:05.785Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "Hong Kong"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              ""
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-12T00:37:05.785Z",
+            227
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj_S",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              14369
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24220
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "9231"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T23:46:12.034Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T23:46:12.034Z",
+            256
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj-3",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              12266
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24218
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "7536"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T23:13:26.200Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T23:13:26.200Z",
+            272
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj-W",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              9990
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24223
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "7274"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T22:18:40.434Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T22:18:40.434Z",
+            290
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj54",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              8974
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24222
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "7187"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T22:17:10.885Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T22:17:10.885Z",
+            298
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj5s",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              7457
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24221
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "7095"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T22:08:26.788Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T22:08:26.788Z",
+            310
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj5k",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              6444
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24220
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "7007"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T22:08:02.985Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T22:08:02.985Z",
+            318
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj5g",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Invalid"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "source.geo.region_name": [
+              "Oklahoma"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "166.155.4.51"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-OK"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "failure"
+            ],
+            "source.geo.city_name": [
+              "Oklahoma City"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              5954
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "a"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6167
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "a"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -97.53630006685853,
+                  35.48299997113645
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "166.155.4.51"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "166.155.4.51"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "CELLCO-PART"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "CELLCO-PART"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "4947"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T22:00:30.890Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "a"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T22:00:30.890Z",
+            322
+          ]
+        },
+        {
+          "_index": ".ds-logs-system.auth-default-2025.07.12-000001",
+          "_id": "AZf-5WUfu9fi-VduJj42",
+          "_version": 1,
+          "_score": null,
+          "fields": {
+            "elastic_agent.version": [
+              "9.0.3"
+            ],
+            "event.category": [
+              "authentication",
+              "session"
+            ],
+            "process.name.text": [
+              "sshd"
+            ],
+            "host.os.name.text": [
+              "Ubuntu"
+            ],
+            "host.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "host.mac": [
+              "0A-6A-AF-37-1E-55"
+            ],
+            "cloud.availability_zone": [
+              "us-east-2c"
+            ],
+            "system.auth.ssh.event": [
+              "Accepted"
+            ],
+            "agent.name.text": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.version": [
+              "24.04.2 LTS (Noble Numbat)"
+            ],
+            "system.auth.ssh.method": [
+              "publickey"
+            ],
+            "source.geo.region_name": [
+              "Texas"
+            ],
+            "cloud.service.name.text": [
+              "EC2"
+            ],
+            "host.os.name": [
+              "Ubuntu"
+            ],
+            "source.ip": [
+              "216.76.55.177"
+            ],
+            "agent.name": [
+              "ip-172-31-38-189"
+            ],
+            "host.name": [
+              "ip-172-31-38-189"
+            ],
+            "event.agent_id_status": [
+              "verified"
+            ],
+            "source.geo.region_iso_code": [
+              "US-TX"
+            ],
+            "event.kind": [
+              "event"
+            ],
+            "event.outcome": [
+              "success"
+            ],
+            "source.geo.city_name": [
+              "San Antonio"
+            ],
+            "cloud.region": [
+              "us-east-2"
+            ],
+            "host.os.type": [
+              "linux"
+            ],
+            "input.type": [
+              "log"
+            ],
+            "log.offset": [
+              2633
+            ],
+            "data_stream.type": [
+              "logs"
+            ],
+            "related.user": [
+              "ubuntu"
+            ],
+            "tags": [
+              "system-auth"
+            ],
+            "host.architecture": [
+              "x86_64"
+            ],
+            "process.name": [
+              "sshd"
+            ],
+            "cloud.machine.type": [
+              "t3.micro"
+            ],
+            "cloud.provider": [
+              "aws"
+            ],
+            "agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "cloud.service.name": [
+              "EC2"
+            ],
+            "source.port": [
+              24219
+            ],
+            "ecs.version": [
+              "8.11.0"
+            ],
+            "host.containerized": [
+              false
+            ],
+            "agent.version": [
+              "9.0.3"
+            ],
+            "related.hosts": [
+              "ip-172-31-38-189"
+            ],
+            "host.os.family": [
+              "debian"
+            ],
+            "source.as.number": [
+              6389
+            ],
+            "system.auth.ssh.signature": [
+              "RSA SHA256:loK07PMgrOnT+coIE17v6v7ZWSOpdXw0+lWlyJXcbro"
+            ],
+            "log.syslog.hostname": [
+              "ip-172-31-38-189"
+            ],
+            "log.syslog.appname": [
+              "sshd"
+            ],
+            "user.name": [
+              "ubuntu"
+            ],
+            "source.geo.location": [
+              {
+                "coordinates": [
+                  -98.33790002390742,
+                  29.45119997486472
+                ],
+                "type": "Point"
+              }
+            ],
+            "source.address": [
+              "216.76.55.177"
+            ],
+            "cloud.instance.id": [
+              "i-0cfa212979575969f"
+            ],
+            "host.ip": [
+              "172.31.38.189",
+              "fe80::86a:afff:fe37:1e55"
+            ],
+            "agent.type": [
+              "filebeat"
+            ],
+            "event.module": [
+              "system"
+            ],
+            "related.ip": [
+              "216.76.55.177"
+            ],
+            "host.os.kernel": [
+              "6.8.0-1029-aws"
+            ],
+            "source.geo.country_iso_code": [
+              "US"
+            ],
+            "log.file.path.text": [
+              "/var/log/auth.log"
+            ],
+            "elastic_agent.snapshot": [
+              false
+            ],
+            "host.id": [
+              "ec27f7e6ee9e2ed74a11e7fcad969733"
+            ],
+            "event.timezone": [
+              "+00:00"
+            ],
+            "source.as.organization.name.text": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "elastic_agent.id": [
+              "48ea3091-3e7e-4d31-8409-e45b4e25949a"
+            ],
+            "data_stream.namespace": [
+              "default"
+            ],
+            "host.os.codename": [
+              "noble"
+            ],
+            "source.as.organization.name": [
+              "BELLSOUTH-NET-BLK"
+            ],
+            "source.geo.continent_name": [
+              "North America"
+            ],
+            "log.syslog.procid": [
+              "1074"
+            ],
+            "cloud.image.id": [
+              "ami-0d1b5a8c13042c939"
+            ],
+            "event.action": [
+              "ssh_login"
+            ],
+            "event.ingested": [
+              "2025-07-12T13:48:57.000Z"
+            ],
+            "@timestamp": [
+              "2025-07-11T21:46:00.208Z"
+            ],
+            "cloud.account.id": [
+              "311979282387"
+            ],
+            "host.os.platform": [
+              "ubuntu"
+            ],
+            "data_stream.dataset": [
+              "system.auth"
+            ],
+            "event.type": [
+              "info"
+            ],
+            "log.file.path": [
+              "/var/log/auth.log"
+            ],
+            "agent.ephemeral_id": [
+              "c43e32b8-7591-437e-a915-0ca59a48b575"
+            ],
+            "source.geo.country_name": [
+              "United States"
+            ],
+            "event.dataset": [
+              "system.auth"
+            ],
+            "user.name.text": [
+              "ubuntu"
+            ]
+          },
+          "highlight": {
+            "log.syslog.appname": [
+              "@kibana-highlighted-field@sshd@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [
+            "2025-07-11T21:46:00.208Z",
+            347
+          ]
+        }
+      ]
+    }
+  },
+  "warning": null,
+  "isRestored": false,
+  "total": 6,
+  "loaded": 6
+}

@@ -15,11 +15,13 @@ _Assumptions - Elastic Instance (free trial available) and AWS EC2 host (free ti
 
 
 One.  Configure Fleet Agent for Elastic
-<img width="1636" height="958" alt="image" src="https://github.com/user-attachments/assets/664c5627-789b-4649-8715-6ddca5c300ea" />
+<img width="1636" height="958" alt="image" src="https://github.com/user-attachments/assets/c80e6c8f-bd33-4045-baa1-b285bd4685df" />
+
    <br>
 2.  Install Fleet Agent and Enroll Host
 <br>  
-<img width="1647" height="969" alt="image" src="https://github.com/user-attachments/assets/eee53f31-4b70-477d-9b23-ca5fe0390997" />
+<img width="1647" height="969" alt="image" src="https://github.com/user-attachments/assets/0da460d3-fd54-4632-b3e8-3cceaaf3cf2f" />
+
 <br>   
 3.  Search and Discover Data
 <img width="1640" height="971" alt="image" src="https://github.com/user-attachments/assets/cde244aa-ffa7-4ce4-88a4-6f8619b713b6" />
@@ -37,12 +39,18 @@ One.  Configure Fleet Agent for Elastic
 Pivot to the Discover Tab
 <br>
 <img width="1592" height="969" alt="image" src="https://github.com/user-attachments/assets/1bcbc195-60b4-40ed-9d0c-5c4971fbe772" />
-Create the view with SSH logins and failures <br>
-'Inspect' the query and response <br>
-<img width="1592" height="969" alt="image" src="https://github.com/user-attachments/assets/38e27909-8ce1-4723-9cef-01f94738ec34" />
+<br>
+Create the view with SSH logins and failures and 'Inspect' the query and response <br>
+
+<img width="1592" height="969" alt="image" src="https://github.com/user-attachments/assets/85ace01a-f0f8-41b3-85ed-43e3cb8db1c4" />
+
+
+
+
 <br>
 Save the response JSON to a file
-<img width="1595" height="964" alt="image" src="https://github.com/user-attachments/assets/548369ba-3779-4e42-b6ca-00279874ac0c" />
+<img width="1595" height="964" alt="image" src="https://github.com/user-attachments/assets/295ec781-27f1-4bda-85af-ad2b5c51f8bc" />
+
 
 
 
@@ -76,9 +84,10 @@ Request a markdown formatted threat timeline as such:
 
 <br>
 Additionally, if you'd like to request a fully formatted Incident Report, it can be generated as such.<br>
+<br><br>
 
 7.  Formal Incident Report with NIST 800-53 Mapping
-8.  
+  
 ---
 
 # 🛡️ Security Incident Report: SSH Access Review

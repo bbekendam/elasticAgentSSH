@@ -100,7 +100,7 @@ Request a markdown formatted threat timeline as such:
 
 
 <br>
-Additionally, if you'd like to request a fully formatted Incident Report, it can be generated as such.<br>
+<br>
 <br><br>
 
 7.  Formal Incident Report with NIST 800-53 Mapping

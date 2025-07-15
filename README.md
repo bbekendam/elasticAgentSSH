@@ -3,6 +3,7 @@
 Purpose is to install a SIEM agent onto an Ubuntu AWS EC2 server, monitor for activity and gain security hardening recommendations.
 _Assumptions - Elastic Instance (free trial available) and AWS EC2 host (free tier available)_
 
+**Disclaimer -- In a production corporate environment, we would NEVER upload sensitive or non-public information to ChatGPT.**
 
 -----
 <br><br>
